@@ -1,0 +1,48 @@
+.Midsec{
+    
+    display: flex;
+    margin: 2rem auto;
+    background-color: #06283D;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    padding: 0.5rem;
+}
+.ownerInfo{
+    color: #DFF6FF;
+    background-color: #06283D;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    transition: ease-in 0.25s;
+    justify-content: center;
+    text-align:center ;
+}
+.ownerInfo:hover{
+    transition: ease-out 0.25s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+.ownerImg{
+    width:200px;
+}
+
+.categoreis{
+    margin: 0 1rem;
+    background-color: #06283D;
+}
+.cate{
+   
+    padding:0 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    color: #DFF6FF;
+    transition: ease-in 0.25s;
+}
+.cate:hover{
+    transition: ease-out 0.25s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+.cateText{
+    font-size: 1rem;
+    font-weight: 500;
+}
